@@ -12,7 +12,7 @@ export default function Navbar() {
                     <div className="flex h-16 items-center justify-between">
 
                         {/* Logo */}
-                        <div className="text-xl font-bold text-white">
+                        <div className="text-2xl font-bold text-white ml-4">
                             Grad<span className="text-blue-500">ium</span>
                         </div>
 

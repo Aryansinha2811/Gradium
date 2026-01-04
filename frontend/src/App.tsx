@@ -1,7 +1,9 @@
 import Navbar from "./components/layout/Navbar"
 import Hero from "./components/sections/Hero"
 import FeaturedProfiles from "./components/sections/FeaturedProfile"
-import HowGradiumWorks from "./components/sections/HowGradiumWorks"
+import HowItWorks from "./components/sections/HowGradiumWorks"
+import Testimonials from "./components/sections/Testimonial"
+import FAQ from "./components/sections/FAQs"
 import Footer from "./components/layout/Footer"
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
         <Navbar />
         <Hero />
         <FeaturedProfiles />
-        <HowGradiumWorks />
+        <HowItWorks />
+        <Testimonials />
+        <FAQ />
         <Footer />
       </div>
     </div>
