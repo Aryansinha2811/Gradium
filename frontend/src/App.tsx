@@ -1,10 +1,9 @@
-import Navbar from "./components/layout/Navbar"
-import Hero from "./components/sections/Hero"
-import FeaturedProfiles from "./components/sections/FeaturedProfile"
-import HowItWorks from "./components/sections/HowGradiumWorks"
-import Testimonials from "./components/sections/Testimonial"
-import FAQ from "./components/sections/FAQs"
-import Footer from "./components/layout/Footer"
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./components/Pages/Home";
+import Students from "./components/Pages/Students";
+import Client from "./components/Pages/Client";
+import Gigs from "./components/Pages/Gigs";
 
 function App() {
   return (
@@ -18,18 +17,17 @@ function App() {
         }}
       />
 
-      {/* Content */}
+      {/* Pages */}
       <div className="relative z-10">
-        <Navbar />
-        <Hero />
-        <FeaturedProfiles />
-        <HowItWorks />
-        <Testimonials />
-        <FAQ />
-        <Footer />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/students" element={<Students />} />
+          <Route path="/clients" element={<Client />} />
+          <Route path="/gigs" element={<Gigs />} />
+        </Routes>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,6 +1,6 @@
-import One from '../../assets/Avatars/One.jpg'
-import Two from '../../assets/Avatars/Two.jpg'
-import Three from '../../assets/Avatars/Three.jpg'
+import Aryan from '../../assets/Avatars/Aryan.jpg'
+import Ansal from '../../assets/Avatars/Ansal.jpg'
+import Ankit from '../../assets/Avatars/Ankit.jpg'
 
 import { Palette, Code, Server, PenTool } from 'lucide-react'
 
@@ -30,7 +30,7 @@ export default function FeaturedProfiles() {
                         skills={["React", "JavaScript", "Node.js", "APIs"]}
                         projects="12+"
                         rating="4.8"
-                        avatar= {Two}
+                        avatar= {Aryan}
                     />
 
                     {/* Card 2 */}
@@ -40,7 +40,7 @@ export default function FeaturedProfiles() {
                         skills={["Node.js", "Express", "MongoDB"]}
                         projects="9+"
                         rating="4.9"
-                        avatar= {Three}
+                        avatar= {Ansal}
                     />
 
                     {/* Card 3 */}
@@ -50,7 +50,7 @@ export default function FeaturedProfiles() {
                         skills={["Figma", "UI Design", "Prototyping"]}
                         projects="15+"
                         rating="4.4"
-                        avatar= {One}
+                        avatar= {Ankit}
                     />
 
                 </div>
@@ -82,6 +82,8 @@ export default function FeaturedProfiles() {
         </section>
     )
 }
+
+            
 
 /* ---------------------------------- */
 /* Category Card Component             */
